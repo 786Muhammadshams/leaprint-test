@@ -1,0 +1,3 @@
+#!/bin/bash
+
+curl -d @725.json -o Rendered.pdf localhost:9090/print

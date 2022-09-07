@@ -1,0 +1,3 @@
+#!/bin/bash
+
+g++ -O3 -s LEAPrintServer.cpp dr/dr/types.cpp dr/DriveRenderer.cpp Serializer/Serializer.a -lcairo -lPocoFoundation -lPocoNet -lPocoUtil -lboost_locale -I./Serializer/include -I./dr -I. -I/usr/include/freetype2 -I/usr/include/libpng16 -lfreetype -DHYPER_SERVER
